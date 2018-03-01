@@ -49,7 +49,7 @@ AC_ARG_ENABLE(
 
 AC_ARG_VAR([MAX_CONFIGS], [specify the maximum number of configs @<:@default=50@:>@])
 if test -z "$MAX_CONFIGS"; then
-	MAX_CONFIGS=50
+	MAX_CONFIGS=200
 fi
 AC_DEFINE_UNQUOTED([MAX_CONFIGS], [$MAX_CONFIGS], [Maximum number of config files supported.])
 
